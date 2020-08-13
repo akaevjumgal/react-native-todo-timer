@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
     "allowSyntheticDefaultImports": true,
     "jsx": "react-native",
-    "lib": ["dom", "esnext"],
+    "lib": ["dom", "es5", "esnext"],
     "moduleResolution": "node",
     "noEmit": true,
     "skipLibCheck": true,
